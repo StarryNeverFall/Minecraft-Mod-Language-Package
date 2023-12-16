@@ -1,6 +1,11 @@
 便携式发电机
-气喘吁吁
-<&portablegenerator0>便携式发电机被设计为一种可移动式供应能源的设备，从而解决一体化供电问题。使用<link;immersivepetroleum:distillationtower;§n§o汽油§r>作为燃料进行发电最高可产生<config;i;portablegenerator_flux>Flux/t，此外它还具有100,000RF的电容量。<np>
-便携式发电机只需用桶右击即可添加燃料，汽油或其他燃料也可以从上方通过管道输入。而电源可直接通过低压或者中压线圈输出，不需要接线器；另外，给予红石信号将停止发电。
+燃油满上
+<&portablegenerator0>
+便携式发电机是一种可移动式轻质燃油发电机，是使用重质燃油的不可移动式<link;immersiveengineering:diesel_generator;§n§o柴油发电机§r>的替代机器。
 
-潜行时右击便可将发电机放入背包，并且其会存储内部所有的电量与燃料。
+此类发电机可直接与低压和中压网络相连。潜行时右击便可将其拿起，并且其会保留所有内容物。<np>
+便携式发电机在燃烧<link;immersivepetroleum:fluids;§n§o汽油§r;gasoline>、<link;immersivepetroleum:fluids;§n§o石脑油§r;naphtha>，<link;immersivepetroleum:fluids;§n§o苯§r;naphtha_derivates>等燃料时能产生最多<config;i;portablegenerator_flux>IF/t，且具有100000IF的能量缓存。
+
+可用桶、油罐，或向便携式发电机上面的输入口以管道输入燃料。
+
+高质量燃料的燃烧时间更长，提供红石信号会停止其运作，不会损失燃料。
