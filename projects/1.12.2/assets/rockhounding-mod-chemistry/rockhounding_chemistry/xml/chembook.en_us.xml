@@ -1,64 +1,64 @@
-<book title="地质探秘丨化学手册" cover="rockhounding_chemistry:gbook/icons/cover" fontSize="0.6" home="0:0">
+<book title="Rockhounding Chemistry Guide book" cover="rockhounding_chemistry:gbook/icons/cover" fontSize="0.6" home="0:0">
 	<include ref="rockhounding_chemistry:xml/custom.xml" />
 
 	<chapter id="chapters">
 		<page id="index">
-			<title color="#CC3333" >目录</title>
+			<title color="#CC3333" >Table of contents</title>
 			<p space="10" />
-			<link ref="concept:readme_page" color="#000066">-&gt; 前言</link>
-			<link ref="concept:concept_page" color="#000066">-&gt; 关于Mod</link>
+			<link ref="concept:readme_page" color="#000066">-&gt; Readme first</link>
+			<link ref="concept:concept_page" color="#000066">-&gt; Mod Concept</link>
 			<p space="10" />
-			<link ref="tech:tech_page" color="#000066">-&gt; 科技概念</link>
+			<link ref="tech:tech_page" color="#000066">-&gt; Tech Concepts</link>
 			<p space="10" />
-			<link ref="resources:resources_page" color="#000066">-&gt; 资源</link>
+			<link ref="resources:resources_page" color="#000066">-&gt; Resources</link>
 			<p space="10" />
-			<link ref="utility:utility_page" color="#000066">-&gt; 功能性方块</link>
-			<link ref="tools:tools_page" color="#000066">-&gt; 功能性物品</link>
-			<link ref="devices:devices_page" color="#000066">-&gt; 机械结构</link>
+			<link ref="utility:utility_page" color="#000066">-&gt; Utility Blocks</link>
+			<link ref="tools:tools_page" color="#000066">-&gt; Utility Items</link>
+			<link ref="devices:devices_page" color="#000066">-&gt; Structures and Machines</link>
 			<p space="10" />
-			<link ref="mobs:mobs_page" color="#000066">-&gt; 生物</link>
+			<link ref="mobs:mobs_page" color="#000066">-&gt; Mobs</link>
 			<p space="10" />
-			<link ref="projects:projects_page" color="#000066">-&gt; 其他内容</link>
-			<link ref="features:features_page" color="#000066">-&gt; 额外设定</link>
-			<link ref="simulants:simulants_page" color="#000066">-&gt; 替代物品</link>
+			<link ref="projects:projects_page" color="#000066">-&gt; Projects</link>
+			<link ref="features:features_page" color="#000066">-&gt; Additional Features</link>
+			<link ref="simulants:simulants_page" color="#000066">-&gt; Simulants</link>
 		</page>
 	</chapter>
 
 		<chapter id="concept">
 			<page id="readme_page">
-				<link ref="chapters:index" color="#CC3333">&lt;- 前言</link>
-				<p>- 如果手册界面大小不合适, 推荐在 .minecraft/config 目录下的 "gbook.cfg" 里设定 bookGUIScale 为 0 或配合游戏界面大小来调整以达到最佳效果。</p>
-				<p>- 将这个 mod 与引入了金属或其他资源的其他科技 mod 来一起游玩以共享资源会更好, 因为这个 mod 的关键作用是生产游戏后期不常见的或不可采掘的资源。</p>
-				<p>- 这本书会尽量全面的阐释这个 mod 的内容并带领您一步步深入了解它。书的目录被分成了不同的主题，每个主题又有不同的章节。 每个章节则有针对性地列出了具体的说明。</p> 
-				<p>- 关于快速浏览: 点击索引以查看对应内容, 点击红色的页面标题返回上一级界面。</p>
-				<p>- 请在 JEI 中搜索 化学任务书 以获得一个逐步深入的任务线来建立整个工厂。</p>
+				<link ref="chapters:index" color="#CC3333">&lt;- Readme first</link>
+				<p>- If the size of this book doesn't allow an optimal reading, it is suggested to set the GUI scale to 0 in the Guidebook configuration "gbook.cfg" or a suiting combination with the game GUI scale.</p>
+				<p>- This mod works better with other tech mods introducing metals and other materials to quickly share common resources, since the key is the production of uncommon or non-minable resources usable later in the game.</p>
+				<p>- This book tries to describe all the parts of the mod and the steps to proceed into it. The table of contents is divided into the main arguments, each one splitted into chapters. Each chapter contains sorted lists of documentation.</p> 
+				<p>- For a faster navigation, clicking on the indexes leads you to the proper page, while clicking on the red page titles leads you back to its direct parent index.</p>
+				<p>- Search for the Chemistry Quest Book in JEI for a progressive quest line to assembly the entire factory.</p>
 			</page>
 			<page id="concept_page">
-				<link ref="chapters:index" color="#CC3333">&lt;- 关于Mod</link>
-				<p>- 这个 mod 从化学工业的角度粗略地描述了各种资源的生产过程。其中包括分析未知矿物、确认其组成并循序渐进地处理它们以及最终收集矿物含有的元素的整个过程。这个 mod 并没有特定的目标, 但让玩家自主决策发展方向并逐渐组建起工厂是这个mod的核心所在。</p>
-				<p>- 科技线是由若干个相互交错的分支组成，它们或是独立运作,或是互相支持, 用初级的资源加工高级的资源以供未来所需。</p>
-				<p>- 对于这个mod本身, 在科技线的末尾可以获得一系列可用于特定游戏阶段（多半是后期）的特色资源。所有的机器也可以通过魔改来自定义配方, 因此所有的机器都能使用其他 mod 的资源来极大的丰富游戏体验。总而言之, 本 mod 十分适合喜爱魔改科技的玩家。</p>
+				<link ref="chapters:index" color="#CC3333">&lt;- Mod Concept</link>
+				<p>- This mod roughly depicts the production of various resources from an industrial chemistry point of view. It involves processes to analyze an unidentified mineral, acknowledge its composition and progressively treat what is exposed to collect their bearing elements. There is not a proper goal line, but assembling the factory and involving the player with choices and strategies are part of the mod's spirit.</p>
+				<p>- The tech tree is made of several converging branches, working on their own or feeding eachother, concerning the acquiring of primary resources and their processing into advanced ones for further usage.</p>
+				<p>- In its basic form, at the end of the chain there is a set of ingredients usable to gate features at given game phases, mostly in late-game. Each machine is also customizable with external recipes, so that each one can be used outside the mod mechanics, to differentiate or spread the pack recipes.</p>
 			</page>
 		</chapter>
 
 		<chapter id="tech">
 			<page id="tech_page">
-				<link ref="chapters:index" color="#CC3333">&lt;- 科技概念</link>
+				<link ref="chapters:index" color="#CC3333">&lt;- Tech Concepts</link>
 				<p space="10" />
-				<link ref="structures:structures_page" indent="8" color="#333399">-&gt; 多方块结构</link>
-				<link ref="structures:connections_page" indent="8" color="#333399">-&gt; 交互接口</link>
-				<link ref="structures:gui_page" indent="8" color="#333399">-&gt; GUI界面元素</link>
-				<link ref="structures:signal_page" indent="8" color="#333399">-&gt; 红石交互</link>
-				<link ref="structures:measures_page" indent="8" color="#333399">-&gt; 计量单位</link>
-				<link ref="structures:consumables_page" indent="8" color="#333399">-&gt; 消耗性元件</link>
+				<link ref="structures:structures_page" indent="8" color="#333399">-&gt; Structures</link>
+				<link ref="structures:connections_page" indent="8" color="#333399">-&gt; Connections</link>
+				<link ref="structures:gui_page" indent="8" color="#333399">-&gt; GUI elements</link>
+				<link ref="structures:signal_page" indent="8" color="#333399">-&gt; Redstone handling</link>
+				<link ref="structures:measures_page" indent="8" color="#333399">-&gt; Measurement</link>
+				<link ref="structures:consumables_page" indent="8" color="#333399">-&gt; Consumables</link>
 			</page>
 		</chapter>
 
 			<chapter id="structures">
 						<page id="structures_page">
 							<link ref="tech:tech_page" color="#CC3333">&lt;- Structures</link>
-							<p>绝大部分的设备是由组件定向连接而成的多方块结构, 其中一些配备了GUI界面, 用来执行机器的主要功能或者仅仅用于存放一些配方所需的材料。有些组件一个就有两格高，它们无论是放置还是拆卸都如同一个方块，因此会被当作一个单独的组件而不是两个分离的组件。使用模组扳手左键组件会将其按顺时针旋转。</p>
-							<p>为了展示如何构建一个多方块结构, 手册使用了栅格示意图来阐释多方块结构的每一层（从下至上）, 每一层都是使用的俯视图来说明各组件的位置以及组件的相对朝向（用红色箭头标出）, 没有使用箭头标记的组件可以是任意朝向。组件所处的栅格边框用不同颜色来标记组件的作用：红色是能量输入, 蓝色是原料输入, 橙色是产品输出。如果某个组件只能接受某种特定的液体/气体输入, 那么这种液体/气体会在同一个栅格里示出。</p>
+							<p>Most of the devices are multiblock structures made of orientable elements connected to eachother. Some of them are provided of a gui, to operate the main functions or just delegated to hold an ingredient of the performed recipe. Some elements are 2 blocks tall and placed at once, hence considered as a single unit. Hitting each element with the mod wrench will rotate clockwise the block.</p>
+							<p>To assembly a structure, this guide uses a grid system for every layer composing it, from the lowest to the highest. Each layer is shown "as seen from above", with the position of every component in the grid and a red arrow indicating their orientation relative to the rest of the structure. Components without the orientation arrow can be freely placed. Slots marked with colored borders, indicate if a block is delegated to powering (red), input tasks (blue) or output tasks (orange). If a block handles only a specific fluid or gas, it will be also shown inside the slot.</p>
 						</page>
 
 						<page id="connections_page">

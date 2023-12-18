@@ -459,6 +459,7 @@ item.rockhounding_surface:aging_items.lapis_compost.name=Lapis Lazuli Compound
 item.rockhounding_surface:aging_items.chalcedony_compost.name=Chalcedony Compound
 item.rockhounding_surface:aging_items.teredo_grub.name=Teredo Grub
 item.rockhounding_surface:aging_items.teredo_colture.name=Teredo Colture
+item.rockhounding_surface:aging_items.contaminated_slag.name=Contaminated Slag
 #fluids blocks
 tile.rockhounding_surface:fluid.acidic_water.name=Acidic Water
 tile.rockhounding_surface:fluid.aging_bath.name=Aging Bath

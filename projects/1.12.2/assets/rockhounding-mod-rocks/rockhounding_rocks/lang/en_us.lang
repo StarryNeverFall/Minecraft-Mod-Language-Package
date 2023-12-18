@@ -6629,6 +6629,7 @@ item.rockhounding_rocks:rock_finder.name=Rock Finder
 item.rockhounding_rocks:cutting_blade.name=Cutting Blade
 item.rockhounding_rocks:dummy_hammer.name=Dummy Hammer
 item.rockhounding_rocks:sandpaper.name=Sandpaper
+item.rockhounding_rocks:rocks_wrench.name=Stonecutter Wrench
 #Patterns
 item.rockhounding_rocks:pattern_items.customized.name=Customized Cut
 item.rockhounding_rocks:pattern_items.plain.name=Plain Block
